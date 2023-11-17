@@ -2,7 +2,7 @@ version: '3.5'
 services:
   localstack:
     container_name: glue-docker-sample-localstack
-    image: localstack/localstack:0.12.8
+    image: localstack/localstack:2.3.2
     environment:
       - SERVICES=s3
       # dummy configure
